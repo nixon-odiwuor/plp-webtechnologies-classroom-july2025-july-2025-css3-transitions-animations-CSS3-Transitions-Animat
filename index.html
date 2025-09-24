@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive CSS + JS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Bringing Web Pages to Life</h1>
+
+  <!-- Button hover + JS trigger -->
+  <button id="animateBtn">Animate the Box</button>
+
+  <!-- Box that will animate -->
+  <div id="box"></div>
+
+  <!-- Card flip -->
+  <div class="card" id="flipCard">
+    <div class="card-inner">
+      <div class="card-front">Front</div>
+      <div class="card-back">Back</div>
+    </div>
+  </div>
+
+  <!-- Popup Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeBtn">&times;</span>
+      <p>Hello! I slide and fade ✨</p>
+    </div>
+  </div>
+
+  <button id="openModal">Open Modal</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
